@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dezine.Co</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                 <!-- <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>KASHVI</h1> -->
+                 <img src="img/dezine/Logo PNG.png" alt="Logo" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="services.html" class="nav-item nav-link">Services</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+            <a href="https://wa.me/919030075374" target="_blank" class="nav-item  whats-app" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" title="Chat with us">
+                <i class="fa-brands fa-whatsapp my-float fs-1 pt-1"></i>
+            </a>
+        </nav>
+
+        <!-- Carousel Start -->
+        <div class="carousel-header">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/dezine/slider1.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Living
+                                    Made Better</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Innovative architectual, Timeless
+                                    Designs</h1>
+                                <p class="mb-5 fs-5">Crafting architectual masterpieces that blend innovation with
+                                    elegance, ensuring spaces that inspire and endure.
+                                </p>
+                                <!-- <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                    </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dezine/slider2.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Living
+                                    Made Better</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Interior Spaces, Redefined</h1>
+                                <p class="mb-5 fs-5">Transforming interiors with bespoke designs that reflect your
+                                    style, comfort, and functionality.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dezine/slider3.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Living
+                                    Made Better</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Luxury Living, Made Better</h1>
+                                <p class="mb-5 fs-5">Enhancing lifestyles with premium architectual and interior
+                                    solutions tailored to perfection.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dezine/slider4.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Living
+                                    Made Better</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Designing Dreams, Building Reality
+                                </h1>
+                                <p class="mb-5 fs-5">From concept to completion, we bring your vision to life with
+                                    precision, creativity, and expertise.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+    </div>
+    <div class="container-fluid search-bar position-relative" style="top: -50%; transform: translateY(-50%);">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center position-relative rounded-pill w-100 mx-auto p-5"
+                style="background: rgba(19, 53, 123, 0.8);">
+                <!-- <img src="img/dezine/happy.jpg" alt="" width="100" height="100" class="me-3"> -->
+                <h3 class="text-white mb-0">COMPLETED 114+ PROJECTS & COUNTING</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar & Hero End -->
+
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5 border border-primary p-5 border-5 shadow">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="h-100">
+                        <img src="img/dezine/MBR (1).jpg" class="img-fluid w-100 h-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7"
+                    style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/compass-2384365_640.webp);">
+                    <h5 class="section-about-title pe-3">About Us</h5>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Dezine.Co</span></h1>
+                    <p class="mb-4">At Dezine.Co, we believe that every space tells a story.
+                        Our interior design firm specializes in transforming
+                        environments into reflections of individuality and
+                        purpose.</p>
+                    <p class="mb-4">With a keen eye for detail and a passion for innovation,
+                        we blend aesthetics and functionality to create
+                        harmonious spaces that inspire and uplift.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!--Profile Start -->
+    <div class="container-fluid booking py-5 mb-4">
+        <div class="container py-5 text-center">
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-6 position-relative">
+                    <!-- Heading with an image at the corner -->
+                    <h5 class="section-booking-title pe-3 position-relative d-inline-block">
+                        MEET THE FOUNDER
+                    </h5>
+                    
+                    <!-- Founder Image, Name & Details -->
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/dezine/img (1).jpeg" alt="profile" class="founder-img">
+                        <h1 class="text-white mb-3">PARVEZ ILAHI</h1>
+                        <p class="text-white mb-1">Founder, Sr. Architectural & Interior Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Profile End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid bg-light service py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">Services</h5>
+                <h1 class="mb-0">Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+                                <div class="service-content text-end">
+                                    <h5 class="mb-4">Space Planning</h5>
+                                    <p class="mb-1 pb-4">Optimizing layouts for maximum functionality and aesthetic
+                                        appeal. </p>
+                                </div>
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
+                                <div class="service-content text-end">
+                                    <h5 class="mb-4">3D Visuals</h5>
+                                    <p class="mb-0"> Bringing designs to life with realistic 3D renderings and
+                                        walkthroughs.</p>
+                                </div>
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
+                                <div class="service-content text-end">
+                                    <h5 class="mb-4">Interior Trunkey Projects</h5>
+                                    <p class="mb-0">Offering complete interior design services, from initial concept to
+                                        final execution.</p>
+                                </div>
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h5 class="mb-4">Architectual Projects</h5>
+                                    <p class="mb-1">Innovative architectural designs tailored to your vision.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h5 class="mb-4">Commercial Projects</h5>
+                                    <p class="mb-0">Designing impactful and efficient commercial spaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                                <div class="service-icon p-4">
+                                    <i class="fa fa-globe fa-4x text-primary"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h5 class="mb-4">Renovations</h5>
+                                    <p class="mb-0">Revitalizing old spaces with modern and stylish upgrades. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Destination Start -->
+    
+    <!-- Destination End -->
+
+    <!-- Explore Tour Start -->
+    <div class="container-fluid ExploreTour py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">Explore Dezine.Co</h5>
+                <h1 class="mb-4">Our Finished</h1>
+                <!-- <p class="mb-0">Designed for the intrepid traveler, this immersive experience takes you off the beaten
+                    path to uncover hidden treasures, cultural delights, and breathtaking landscapes.
+                </p> -->
+            </div>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
+                            data-bs-toggle="pill" href="#InteriorTab-1">
+                            <span class="text-dark" style="width: 250px;">Office Interior Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#InteriorTab-2">
+                            <span class="text-dark" style="width: 250px;"> Interior Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#InteriorTab-3">
+                            <span class="text-dark" style="width: 250px;">Exterior Projects</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="InteriorTab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (4).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                                    <!-- <div class="national-content">
+                                        <div class="national-info">
+                                            <h5 class="text-white text-uppercase mb-2">Weekend Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="national-plus-icon">
+                                        <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (5).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (6).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (7).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (9).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                           
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (8).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (10).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (11).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div id="InteriorTab-2" class="tab-pane fade show p-0">
+                        <div class="InternationalTour-carousel owl-carousel">
+                            <div class="national-item">
+                                <img src="img/dezine/04.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="national-item">
+                                <img src="img/dezine/12.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="national-item">
+                                <img src="img/dezine/05.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="national-item">
+                                <img src="img/dezine/MBR (2).jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/02.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/03.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/06.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/07.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/08.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/09.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/10.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/11.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/13.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/14.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                            <div class="international-item">
+                                <img src="img/dezine/15.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="InteriorTab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (14).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <h5 class="text-primary mt-3">BEFORE</h5>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (13).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                    
+                                </div>
+                                <h5 class="text-primary mt-3">PROPOSED DESIGN</h5>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="national-item">
+                                    <img src="img/dezine/img (12).jpeg" class="img-fluid w-100 rounded" alt="Image">
+                                    
+                                </div>
+                                <h5 class="text-primary mt-3">EXECUTION</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Explore Tour Start -->
+
+    <!-- Packages Start -->
+    <div class="container-fluid packages ">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">SOME OF OUR VALUED</h5>
+                <h1 class="mb-0">Clients</h1>
+            </div>
+            <div class="packages-carousel owl-carousel">
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (18).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">INTERNATIONAL
+                                SCHOOLS</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (19).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">FURNITURE STORE </h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (20).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">GROUP OF HOTELS</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (21).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">GROUP OF SCHOOL</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (22).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">REAL STATE FIRM </h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/c3.png" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">adv.ABUZAR AHMED
+                                KHAN -HIGH COURT</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/img (24).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">REAL STATE FIRM</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/dezine/c5.png" class="img-fluid w-100 rounded-top" alt="Image">
+                        
+                        <div class="packages-price py-2 px-4">Client</div>
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+                            <h5 class="mb-0">IT FIRM</h5>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">Testimonial</h5>
+                <h1 class="mb-0">What Our Clients Say!!!</h1>
+            </div>
+            <div class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item text-center rounded pb-4">
+                    <div class="testimonial-comment bg-light rounded p-4">
+                        <p class="text-center mb-5">Team is very confident at work and give 100% efforts
+                            if any changes required also team ready to change</p>
+                    </div>
+                    <div class="testimonial-img p-1">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" alt="Image">
+                    </div>
+                    <div style="margin-top: -35px;">
+                        <h5 class="mb-0">KIRANJANA</h5>
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center rounded pb-4">
+                    <div class="testimonial-comment bg-light rounded p-4">
+                        <p class="text-center mb-5">Good experience and high quality work...I'm very
+                            happy with Dezine co Parvez work...</p>
+                    </div>
+                    <div class="testimonial-img p-1">
+                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" alt="Image">
+                    </div>
+                    <div style="margin-top: -35px;">
+                        <h5 class="mb-0">SRISHYAM'SDANCE &
+                            AEROBICS STUDIOS</h5>
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center rounded pb-4">
+                    <div class="testimonial-comment bg-light rounded p-4">
+                        <p class="text-center mb-5">Thanku dezine.co for making my compact kitchen into
+                            spacious one with beautiful look. </p>
+                    </div>
+                    <div class="testimonial-img p-1">
+                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" alt="Image">
+                    </div>
+                    <div style="margin-top: -35px;">
+                        <h5 class="mb-0">ABUZAR AHMED KHAN ADVOCATE HIGHCOURT</h5>
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Get In Touch</h4>
+                        <a href=""><i class="fas fa-home me-2"></i>#3-4-173 Opp. Eshwar Theater,<br>Pillar No: 135
+                            Attapur,<br>Hyderabad-500048.</a>
+                        <a href="mailto:" target="_blank"><i class="fas fa-envelope me-2"></i> info@kashvitours.com</a>
+                        <a href="tel:+919030075374" target="_blank"><i class="fas fa-phone me-2"></i> +91 9030075374</a>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1"
+                                href="https://www.facebook.com/share/r/19pQe5kHVK/" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1"
+                                href="https://www.instagram.com/dezine.co?igsh=eWhwcmFnam5pZGdw&utm_source=qr"
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1"
+                                href="https://youtube.com/@dezineco1416?si=EOHl3II66g7jBGvw" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Company</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Service</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+
+                    </div>
+                    <!-- </div>
+                        
+                                <h4 class="text-white mb-3">Payments</h4>
+                                <div class="footer-bank-card">
+                                    <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                                    <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                                    <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                                    <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                                    <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                                    <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Dezine.Co</a>, All right
+                        reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        Designed By <a class="text-white" href="https://pojo.com" target="_blank">Pojo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
+                class="fa fa-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
