@@ -1,21 +1,12 @@
 .whats-app {
-    /* position: fixed; */
     width: 50px;
     height:50px;
-    /* top: 300px; */
-    /* bottom: 0px; */
     background-color: hsl(141, 75%, 46%);
     color: #FFF;
-    /* border-right: 5px solid black ; */
-    /* border-left: #25d366; */
-    /* border-radius: 50px; */
     text-align: center;
-    font-size: 30px;
-    /* box-shadow: 2px 2px 3px; */
+    font-size: 32px;
     margin-left: 10px;
     border-radius: 50%;
-    /* z-index: 100; */
-    /* left: 1290px; */
 }
 /* Ensure all .packages-item have the same height */
 .packages-item {
@@ -39,7 +30,7 @@
 
 /* Ensure content div is aligned at the bottom */
 .packages-content {
-    flex: 0 0 auto; /* Prevent content from stretching */
+    flex: 0 0 auto; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,12 +38,12 @@
 
 /* Adjust price and content areas */
 .packages-price {
-    margin-top: auto; /* Push price to the bottom */
+    margin-top: auto; 
 }
 .national-item img {
     width: 100%;
-    height: 300px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio without distortion */
+    height: 300px; 
+    object-fit: cover; 
 }
 .national-item {
     display: flex;
@@ -68,16 +59,16 @@
 }
 .corner-img {
     position: absolute;
-    bottom: -10px; /* Adjust position */
-    right: -20px; /* Adjust position */
-    width: 40px; /* Adjust size */
+    bottom: -10px; 
+    right: -20px;
+    width: 40px; 
     height: auto;
 }
 
 /* Center Founder Image */
 .founder-img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
+    width: 250px; 
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 20px;
@@ -87,4 +78,24 @@
 .founder-details {
     text-align: center;
     margin-top: 10px;
+}
+.bg-breadcrumb-abt {
+    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/dezine/img\ \(2\).jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0 50px 0;
+}
+.breadcrumb a{
+    color:#fff !important;
+}
+.bg-breadcrumb .breadcrumb-item a {
+    color: #fff !important;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#13357b !important;
 }

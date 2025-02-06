@@ -259,9 +259,9 @@
         color: var(--bs-primary) !important;
     }
 
-    .navbar-light .navbar-brand img {
+    /* .navbar-light .navbar-brand img {
         max-height: 45px;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
@@ -1234,7 +1234,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary);
+    color:var(--bs-white);
 }
 
 /*** Footer End ***/
